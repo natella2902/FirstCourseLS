@@ -1,0 +1,113 @@
+body {
+    width: auto;
+    height: auto;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul
+
+.wrapper {
+    width: 1100px;
+    height: 1943px;
+}
+
+.header {
+    width: 1100px;
+    height: 77px; 
+    background-color: #27273e; 
+    color: #ffffff;
+}
+
+.logo {
+    width: 99px;
+    height: 51px;
+    padding: 0px;
+    margin: 13px 19px;
+    float: left;
+}
+
+.company-contacts {
+    width: 198px;
+    height: 38px;
+    float: right;
+  
+}
+
+.company-contacts__telephone {
+    width: 198px;
+    height: 18px;
+
+}
+
+.company-contacts__schedule {
+    width: 114px;
+    height: 14px;
+
+}
+
+.container {
+    height: 1928px;
+    
+}
+
+.container-banner {
+    height: 359px;
+
+}
+
+.container-main {
+    width: 1100px;
+    height: 1432px;
+ 
+    border: 0.5px solid red;
+
+}
+
+.side-bar {
+    width: 175px;
+    height: 200px;
+    float: left;
+    background-color: blueviolet;
+    
+}
+
+.text-content {
+    width: 910px;
+    height: 1400px;
+    float: right;
+    background-color: blueviolet;
+}
+
+.pagination {
+    width: 336px;
+    height: 25px;
+    border: 0.5px solid red;
+    display: inline;
+}
+
+.pagination__pages {
+
+}
+
+.footer {
+    width: 1100px;
+    height: 77px; 
+    background-color: #27273e; 
+    color: #ffffff;
+}
+
+.footer-text {
+    width: 264px;
+    height: 48px;
+    float: left;
+}
+
+.social-media {
+    width: 168px;
+    height: 41px;
+    float: right;
+}
