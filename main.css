@@ -130,16 +130,16 @@ li {
 } 
 
 .features__icon--flower {
-    background: url(picture/flower.png) no-repeat;
+    background: url(/picture/flower.png) no-repeat;
    
 }
 
 .features__icon--star {
-    background: url(picture/mark-as-favorite-star.png) no-repeat; 
+    background: url(../picture/mark-as-favorite-star.png) no-repeat; 
 }
 
 .features__icon--paint {
-    background: url(picture/painter-palette.png) no-repeat; 
+    background: url(./picture/painter-palette.png) no-repeat; 
 }
 
 
