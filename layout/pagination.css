@@ -1,0 +1,16 @@
+
+
+.pagination {
+    flex: 1;
+}
+
+.pagination_pages-item {
+    display: inline;
+ 
+}
+
+.pagination__controls {
+    display: inline-block;
+    text-align: center;
+    }
+

@@ -42,43 +42,6 @@ li {
 }
 
 
-.header {
-    width: 100%;
-    background-color: #27273e; 
-    color: #ffffff;
-}
-
-.header__container {
-    position: relative;
-    height: 77px;
-
-}
-
-.logo {
-    width: 99px;
-    height: 51px;
-    position: absolute;
-   
-}
-
-.header__logo {
-    left: 0;
-    top: 10px; 
-
-}
-
-.contacts {
-    width: 198px;
-    height: 38px;
-    position: absolute;
-    text-align: right;
-}
-
-.header__contacts {
-    right: 0;
-
-}
-
 .banner {
     background-color: #27273e;
     text-align: center;

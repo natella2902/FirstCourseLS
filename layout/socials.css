@@ -1,0 +1,33 @@
+.socials__list {
+    display: flexbox;
+}
+
+.socials__item {
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 25px;    
+    height: 25px;
+    overflow: hidden;
+    background: white no-repeat center;
+} 
+
+.socials__item--vk {
+    background-image: url(/picture/vk.png);
+}
+
+.socials__item--fb {
+    background-image: url(/picture/fb.png);
+}
+
+.socials__item--g {
+    background-image: url(/picture/google.png);
+}
+
+.socials__item--tw {
+    background-image: url(/picture/twitter.png);
+}
+
+.socials__item--mail {
+    background-image: url(/picture/mail.png);
+}
