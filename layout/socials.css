@@ -1,9 +1,8 @@
 .socials__list {
-    display: flexbox;
+    display: flex;
 }
 
 .socials__item {
-    flex: 1;
     justify-content: space-between;
     border-radius: 50%;
     width: 25px;    
