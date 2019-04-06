@@ -5,11 +5,10 @@
     color: white;
 }
 
-.container .header {
+.header__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    min-height: 77px;
+    align-items: baseline;
 }
 
 .logo {
@@ -18,7 +17,6 @@
 
 .logo--header{
     margin: 13px 19px;
-  
 }
 
 .contacts {
@@ -29,5 +27,13 @@
 
 .contacts__button {
     display: block;
-    
+    color: white; 
+}
+
+.contacts__button-hidden {
+    display: none;
+}
+
+.contacts__button-hidden:active {
+   
 }

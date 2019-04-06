@@ -1,5 +1,4 @@
 
-
 .main {
     width: 77%;
     display: flex; 
@@ -10,10 +9,14 @@
 
 
 .title {
-    margin: 70px 10px;
+    margin-bottom: 70px;
     font-weight: bold;
     font-size: 49px;
     line-height: 38px;
+}
+
+.features {
+    margin-bottom: 80px;
 }
 
 .features__list {
