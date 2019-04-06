@@ -28,21 +28,21 @@
 } 
 
 .socials__item--vk {
-    background-image: url(/picture/vk.png);
+    background-image: url(./picture/vk.png);
 }
 
 .socials__item--fb {
-    background-image: url(/picture/fb.png);
+    background-image: url(./picture/fb.png);
 }
 
 .socials__item--g {
-    background-image: url(/picture/google.png);
+    background-image: url(./picture/google.png);
 }
 
 .socials__item--tw {
-    background-image: url(/picture/twitter.png);
+    background-image: url(./picture/twitter.png);
 }
 
 .socials__item--mail {
-    background-image: url(/picture/mail.png);
+    background-image: url(./picture/mail.png);
 }
