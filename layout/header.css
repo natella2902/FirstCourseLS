@@ -6,24 +6,28 @@
 }
 
 .container .header {
+    display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     min-height: 77px;
 }
 
 .logo {
-    flex: 1;
-    width: 99px;
-    height: 51px; 
+    width: 30%;
 }
 
-.header__logo{
+.logo--header{
     margin: 13px 19px;
+  
 }
 
 .contacts {
-    flex: 1;
-    width: 198px;
+    width: 30%;
     min-height: 38px;
     text-align: right;
+}
+
+.contacts__button {
+    display: block;
+    
 }

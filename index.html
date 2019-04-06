@@ -2,71 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/layout/normalize.css">
-    <link rel="stylesheet" href="/layout/base.css">
-    <link rel="stylesheet" href="/layout/header.css">
-    <link rel="stylesheet" href="/layout/banner.css">
-    <link rel="stylesheet" href="/layout/aside.css">
-    <link rel="stylesheet" href="/layout/main.css">
-    <link rel="stylesheet" href="/layout/pagination.css">
-    <link rel="stylesheet" href="layout/footer.css">
-    <link rel="stylesheet" href="layout/socials.css">
+    <link rel="stylesheet" href="fonts.css"> 
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="container">
-                <div class="logo header__logo">
+                <div class="logo logo--header">
                     <a class="logo__link">
-                        <img src="picture/logo-fig.png" alt="logotipe" class="logo__img">
+                        <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
                     </a>
                 </div>
-                <div class="contacts">
+                <address class="contacts">
                     <a href="tel:+78000039210" class="contacts__phone">
                         8(800)00-392-10
                     </a> 
-                    <button class="button__contacts"> График работы </button> 
-                    <div class="worktime"> пн-вс: 09:00-20:00  </div>    
-                    <div class="break"> обед: 14:00-14:30  </div> 
-                </div>      
+                    <button class="contacts__button" type="button">  График работы </button> 
+                    <div class="contacts__schedule">
+                        <div class="contacts__worktime"> пн-вс: 09:00-20:00  </div>    
+                        <div class="contacts__break"> обед: 14:00-14:30  </div> 
+                    </div>
+                </address>      
             </div>
         </div>
         <div class="banner">
-            <img class="banner__img" src="/picture/Banner.png" alt="banner">
+            <img class="banner__img" src="./picture/Banner.png" alt="banner">
         </div>
         <div class="container">
             <aside class="aside">
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="" class="nav__link">
-                            <span class="nav__icon">
-                                <img src="" alt="" class="nav__icon-pic">
-                            </span>
-                            <span class="nav__title">
+                            <a class="nav__link nav__link--active">
+                            <div class="nav__icon nav__icon--main"> </div>
+                            <div class="nav__title">
                                 Главная
-                            </span>
+                            </div>
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__link">
-                            <span class="nav__icon">
-                                <img src="" alt="" class="nav__icon-pic">
-                            </span>
-                            <span class="nav__title">
+                            <a href="#" class="nav__link">
+                            <div class="nav__icon nav__icon--feed"> </div>
+                            <div class="nav__title">
                                 Отзывы
-                            </span>
+                            </div>
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__link">
-                            <span class="nav__icon">
-                                <img src="" alt="" class="nav__icon-pic">
-                            </span>
-                            <span class="nav__title">
+                            <a href="#" class="nav__link">
+                            <div class="nav__icon nav__icon--wallet"> </div>
+                            <div class="nav__title">
                                 Тарифы
-                            </span>
+                            </div>
                             </a>
                         </li>
                     </ul>
@@ -74,7 +63,7 @@
             </aside>
             <main class="main">
                 <section class="features">
-                    <h1 class="title title--features"> Особенности </h1>
+                    <h1 class="title"> Особенности </h1>
                     <ul class="features__list">
                         <li class="features__item">
                             <div class="features-icon  features__icon--flower"> </div>
@@ -110,15 +99,15 @@
                     </ul>
                 </section>
                 <section class="news">
-                    <h2 class="title title--news" >Последние новости</h2>  
+                    <h2 class="title">Последние новости</h2>  
                     <ul class="news__content">
                         <li class="news__item">
                             <div class="news__avatar">
-                                <img src="/picture/Layer 6.psb.png" alt="Черная дыра" class="news__avatar-pic">      
+                                <img src="./picture/Layer 6.psb.png" alt="Черная дыра" class="news__avatar-pic">      
                             </div>
                             <div class="news__description">
                                 <div class="news__date">12.10.2016</div>
-                                <h3 class="title">Чёрная дыра скидок!</h3>
+                                <h3 class="news__title">Чёрная дыра скидок!</h3>
                                 <p class="news__text">Ключевым технологическим партнером GrowUp является дата-центр Миран,
                                         расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет 
                                         стабильной в любое время суток. Коворкинг работает в формате 24/7.
@@ -128,11 +117,11 @@
                         </li>
                         <li class="news__item">
                             <div class="news__avatar">
-                                <img src="/picture/Layer 7.psb.png" alt="Человек с фаером" class="news__avatar-pic" >      
+                                <img src="./picture/Layer 7.psb.png" alt="Человек с фаером" class="news__avatar-pic" >      
                             </div>
                             <div class="news__description">
                                 <div class="news__date">01.02.2016</div>
-                                <h3 class="title">Заражай друзей, получай призы!</h3>
+                                <h3 class="news__title">Заражай друзей, получай призы!</h3>
                                 <p class="news__text">
                                     Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - 
                                     вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
@@ -142,11 +131,11 @@
                         </li>
                         <li class="news__item">
                             <div class="news__avatar">
-                                <img src="/picture/Layer 9.psb.png" alt="Рабочее место" class="news__avatar-pic">      
+                                <img src="./picture/Layer 9.psb.png" alt="Рабочее место" class="news__avatar-pic">      
                             </div>
                             <div class="news__description">
                                 <div class="news__date">22.12.2015</div>
-                                <h3 class="title">Новое рабочее место для бизнесменов.</h3>
+                                <h3 class="news__title">Новое рабочее место для бизнесменов.</h3>
                                 <p class="news__text">
                                     Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. 
                                     Она включает в себя: кухонную зону и зону релакса.
@@ -160,17 +149,17 @@
                 <div class="pagination">
                 <span class="pagination__display"> Страница 1 из 7 </span>
                 <div class="pagination__controls">
-                    <a href="" class="pagination__prev"><</a>
+                    <a href="#" class="pagination__prev"><</a>
                     <ul class="pagination__pages">
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">1</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">2</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">3</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">4</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">5</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">6</a></li>
-                        <li class="pagination_pages-item"><a href="" class="pagination__link">7</a></li>
+                        <li class="pagination_pages-item"><a class="pagination__link">1</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">2</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">3</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">4</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">5</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">6</a></li>
+                        <li class="pagination_pages-item"><a href="#" class="pagination__link">7</a></li>
                     </ul>
-                    <a href="" class="pagination__next">></a>
+                    <a href="#" class="pagination__next">></a>
                 </div>
                 </div>
             </main>
@@ -179,16 +168,16 @@
             <div class="container footer__container">
                 <div class="footer-text">
                         Сделано с любовью и старанием
-                        на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool</a> 
-                        Автор работы: <a a href="https://github.com/natella2902/FirstCourseLS">Желонкина Наталья</a>
+                        на курсе «HTML + CSS» в <a class="footer-text__link" href="https://loftschool.com/">LoftSchool</a> 
+                        Автор работы: <a class="footer-text__link" href="https://github.com/natella2902/FirstCourseLS">Желонкина Наталья</a>
                 </div>
-                <div class="logo footer__logo">
+                <div class="logo logo--footer">
                     <a class="logo__link">
                         <img src="/picture/logo-fig.png" alt="logotipe" class="logo__img">
                     </a>
                 </div>
-                <div class="socials footer__socials">
-                    <h3 class="title title--socials"> Наши социальные сети </h3>
+                <div class="socials">
+                    <h3 class="socials__title"> Наши социальные сети </h3>
                     <ul class="socials__list">
                         <li class="socials__item socials__item--vk"><a class="socials__link socials__link--vk" href="#"></a></li>
                         <li class="socials__item socials__item--fb"><a class="socials__link socials__link--fb" href="#"></a></li>

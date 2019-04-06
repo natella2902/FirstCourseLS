@@ -1,3 +1,18 @@
+.socials {
+    width: 30%;
+    margin-bottom: 15px;
+    
+}
+
+.socials__title {
+    font-family: 'gothampro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 54px;
+    margin-bottom: -10px;
+
+}
+
 .socials__list {
     display: flex;
 }
@@ -9,6 +24,7 @@
     height: 25px;
     overflow: hidden;
     background: white no-repeat center;
+    margin-right: 10px;
 } 
 
 .socials__item--vk {

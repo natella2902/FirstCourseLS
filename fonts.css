@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+@font-face {
+    font-family: 'gothampro';
+    src: url('fonts/GothamPro-Bold.woff') format('woff');
+    src: url('fonts/GothamPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}   
+
+@font-face {
+    font-family: 'gothampro';
+    src: url('fonts/GothamPro-Light.woff') format('woff');
+    src: url('fonts/GothamPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}  

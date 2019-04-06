@@ -1,0 +1,63 @@
+.nav__link {
+    display: flex;
+    text-decoration: none;
+}   
+
+.nav__icon {
+    min-width: 20px;
+    height: 18px;
+    background: center center no-repeat;
+  }
+
+.nav__icon--main {
+    background-image: url(../picture/main_icon.png)
+}
+  
+.nav__icon--feed {
+    background-image: url(../picture/feed_icon.png) 
+}
+
+.nav__icon--wallet {
+    background-image: url(../picture/wallet_icon.png) 
+}
+
+.nav__link:hover .nav__icon--main {
+    background-image: url(../picture/main_icon.png);
+  }
+  
+.nav__link:hover .nav__icon--feed {
+    background-image: url(../picture/feed_icon.png);
+  }
+  
+.nav__link:hover .nav__icon--wallet {
+    background-image: url(../picture/wallet_icon.png);
+  }
+
+.nav__link--active .nav__icon--main{
+    background-image: url(../picture/main_icon.png);
+  }
+  
+.nav__link--active .nav__icon--feed {
+    background-image: url(../picture/feed_icon.png);
+  }
+  
+.nav__link--active .nav__icon--wallet {
+    background-image: url(../picture/wallet_icon.png);
+  }
+  
+.nav__link--active .nav__title {
+    color: black;
+    text-decoration: underline;
+  }
+  
+.nav__title {
+    display: inline-block;
+    font-family: "gothampro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: #ef3a8a;
+}

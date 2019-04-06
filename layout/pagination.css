@@ -1,16 +1,35 @@
-
-
 .pagination {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .pagination_pages-item {
     display: inline;
- 
+}
+
+.pagination__prev, 
+.pagination__link,
+.pagination__next {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.pagination__link { 
+    font-weight: bold;
+    color: #221f1f;
+}
+
+.pagination__display {
+    font-weight: normal;
+    color: #656464;  
+    margin-right: 10px;
 }
 
 .pagination__controls {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     }
-
