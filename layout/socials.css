@@ -1,6 +1,7 @@
 .socials {
     width: 30%;
     margin-bottom: 15px;
+   
     
 }
 
@@ -45,4 +46,33 @@
 
 .socials__item--mail {
     background-image: url(../picture/mail.png);
+}
+
+.socials__item:hover {
+    background: #ec1e79 no-repeat center;
+}
+
+.socials__item--vk:hover {
+    background-image: url(../picture/vk.png);
+}
+
+.socials__item--fb:hover {
+    background-image: url(../picture/fb.png);
+}
+
+.socials__item--g:hover {
+    background-image: url(../picture/google.png);
+}
+
+.socials__item--tw:hover {
+    background-image: url(../picture/twitter.png);
+}
+
+.socials__item--mail:hover {
+    background-image: url(../picture/mail.png);
+}
+
+
+.socials__item--vk .socials__item--active {
+    background: green no-repeat center;
 }

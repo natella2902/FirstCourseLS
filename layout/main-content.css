@@ -98,7 +98,7 @@
     margin-bottom: 30px;
 }
 
-.news__ite:last-child {
+.news__item:last-child {
     border-bottom: 0.5px solid white;
     margin-bottom: 30px;
 }

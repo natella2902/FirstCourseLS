@@ -1,0 +1,22 @@
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    background: #27273e repeat;
+    background-image: url(../picture/Group_1.png)
+}
+
+.discount__text {
+    font-family: "gothempro", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 50px 215px;
+
+}
+
+.discount__text span {
+    color: #ec1e79;
+    font-weight: 700;
+}

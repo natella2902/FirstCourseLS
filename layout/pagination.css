@@ -11,6 +11,17 @@
     display: inline;
 }
 
+.pagination_pages-item--active {
+ 
+    background: #27273e;
+    border-radius: 10%;
+    padding: 5px 0 5px 10px;
+}
+
+.pagination_pages-item--active .pagination__link {
+    color: white; 
+}
+
 .pagination__prev, 
 .pagination__link,
 .pagination__next {

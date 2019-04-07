@@ -3,12 +3,13 @@
     width: 100%;
     background-color: #27273e; 
     color: white;
+    min-block-size: 77px;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .logo {
@@ -16,24 +17,55 @@
 }
 
 .logo--header{
-    margin: 13px 19px;
+    margin: 20px 19px;
 }
 
 .contacts {
     width: 30%;
     min-height: 38px;
     text-align: right;
+    
+}
+
+.contacts__phone {
+    position: relative;
+    font-family: "gothampro", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .contacts__button {
-    display: block;
-    color: white; 
+   
+    font-family: "gothampro", sans-serif;
+    color: #ec1e79;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 54px;
+    text-decoration: underline; 
+    margin: -25px 0;
+   
 }
 
 .contacts__button-hidden {
+    color: white; 
     display: none;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    float: right;
+    
+   
+   
 }
 
-.contacts__button-hidden:active {
-   
+.contacts__button:hover + .contacts__button-hidden {
+    display: block;
+}
+
+.contacts__schedule {
+    position: relative;
 }

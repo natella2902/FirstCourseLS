@@ -1,0 +1,32 @@
+.breadcrumbs {
+    display: flex;
+    justify-items: center;
+   
+    
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    margin-right: 5px; 
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+    margin-right: none;
+}
+
+.breadcrumbs__link {
+    font-family: 'gothampro-light', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.8;
+    color: #ec1e79;
+    text-decoration: underline; 
+    margin-right: 5px;    
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: #4e4c4c;
+    text-decoration: none;
+  }
