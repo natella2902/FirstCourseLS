@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./layout/content.css">
+</head>
+<body>   
+    <div class="wrapper">
+        <header class="header">
+            <div class="container container--flex">
+                <div class="logo logo--header">
+                    <a class="logo__link" href="index.html">
+                        <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
+                    </a>
+                </div>
+                <address class="contacts">
+                    <a href="tel:+78000039210" class="contacts__phone">
+                        8(800)00-392-10
+                    </a> 
+                    <div class="contacts__schedule">
+                    <button class="contacts__button" type="button">  График работы </button> 
+                        <div class="contacts__button-hidden">
+                            <div class="contacts__worktime"> пн-вс: 09:00-20:00  </div>    
+                            <div class="contacts__break"> обед: 14:00-14:30  </div> 
+                        </div>
+                    </div>
+                </address>      
+            </div>
+        </header>
+        <div class="container"> 
+            <aside class="aside">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="/index.html" class="nav__link nav__link-main"> Главная</a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="/reviews.html" class="nav__link nav__link-feed"> Отзывы </a>
+                        </li>
+                        <li class="nav__item nav__item--active">
+                            <a class="nav__link nav__link-wallet">  Тарифы </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Главная</a></li>
+                    <li class="breadcrumbs__item breadcrumbs__item--active"><a class="breadcrumbs__link">Тарифы</a></li>
+                </ul>
+                <section class="tarifs">
+                    <h1 class="title">Тарифы</h1>
+                    <ul class="content">
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/odin.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">800 руб/мес или 100 руб/сутки</h3>
+                                <p class="content__text"> 
+                                    Оплачивается рабочее место на 1 человека. 
+                                    Есть возможность оплаты с привязкой к определенному физическому месту.
+                                    При оплате за год, скидка 30%.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/dva_stula.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">1 500 руб/мес или 200 руб/сутки</h3>
+                                <p class="content__text">
+                                    Оплачивается стол на 3 рабочих места. При этом можно 
+                                    ими пользоваться как одновременно, так и поочередно. 
+                                    Можно пользоваться офисной техникой и выделенным шкафом для документов.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/tree.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">10 000 руб/мес</h3>
+                                <p class="content__text">
+                                    Оплачивается 10 рабочих мест на любые 10 дней месяца.
+                                    Отлично подходит для периодической работы команды сотрудников 
+                                    без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%
+                                </p>
+                            </div>
+                        </li>    
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/s_komp.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">2 500 руб/мес</h3>
+                                <p class="content__text">
+                                    В стоимость включена не только оплата рабочего места, 
+                                    но и пользование копировальной техникой, бесплатный кофе или чай в течение дня, 
+                                    возможность использования зала для переговоров при предварительном 
+                                    бронировании 1 раз в месяц.                                </p>
+                            </div>
+                        </li>
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/koso.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">Цена рассчитывается индивидуально</h3>
+                                <p class="content__text">
+                                    Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. 
+                                    В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер 
+                                    и копировальный автомат. 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="content__item">
+                            <div class="content__avatar">
+                                <img src="./picture/mnogo_stul.png" alt="" class="content__avatar-pic">      
+                            </div>
+                            <div class="content__description">
+                                <h3 class="content__title">2 500 руб/час — </h3>
+                                <p class="content__text">
+                                    Аренда среднего зала. Есть возможность раннего бронирования конференц-залов 
+                                    со скидкой до 30% при полной предоплате.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>                         
+                </section>
+                <section class="partners">
+                <h2 class="title"> Партнёры </h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                </section>
+            </main>                
+        </div>
+        <footer class="footer">
+                <div class="container container--flex">
+                    <div class="footer-text">
+                            Сделано с любовью и старанием
+                            на курсе «HTML + CSS» в <a class="footer-text__link" href="https://loftschool.com/">LoftSchool</a> 
+                            Автор работы: <a class="footer-text__link" href="https://github.com/natella2902/FirstCourseLS">Желонкина Наталья</a>
+                    </div>
+                    <div class="logo logo--footer">
+                        <a class="logo__link" href="index.html">
+                            <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
+                        </a>
+                    </div>
+                    <div class="socials">
+                        <h3 class="socials__title"> Наши социальные сети </h3>
+                        <ul class="socials__list">
+                            <li class="socials__item socials__item--vk"><a class="socials__link socials__link--vk" href="#"></a></li>
+                            <li class="socials__item socials__item--fb"><a class="socials__link socials__link--fb" href="#"></a></li>
+                            <li class="socials__item socials__item--g"><a class="socials__link socials__link--g" href="#"></a></li>
+                            <li class="socials__item socials__item--tw"><a class="socials__link socials__link-tw" href="#"></a></li>
+                            <li class="socials__item socials__item--mail"><a class="socials__link socials__link--mail" href="#"></a></li>
+                        </ul>  
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

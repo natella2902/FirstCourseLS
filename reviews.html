@@ -9,24 +9,24 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container header__container">
+            <div class="container container--flex">
                 <div class="logo logo--header">
                     <a class="logo__link" href="index.html">
                         <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
                     </a>
                 </div>
                 <address class="contacts">
-                        <a href="tel:+78000039210" class="contacts__phone">
-                            8(800)00-392-10
-                        </a> 
-                        <div class="contacts__schedule">
-                        <button class="contacts__button" type="button">  График работы </button> 
-                            <div class="contacts__button-hidden">
-                                <div class="contacts__worktime"> пн-вс: 09:00-20:00  </div>    
-                                <div class="contacts__break"> обед: 14:00-14:30  </div> 
-                            </div>
+                    <a href="tel:+78000039210" class="contacts__phone">
+                        8(800)00-392-10
+                    </a> 
+                    <div class="contacts__schedule">
+                    <button class="contacts__button" type="button">  График работы </button> 
+                        <div class="contacts__button-hidden">
+                            <div class="contacts__worktime"> пн-вс: 09:00-20:00  </div>    
+                            <div class="contacts__break"> обед: 14:00-14:30  </div> 
                         </div>
-                    </address> 
+                    </div>
+                </address>      
             </div>
         </header>
        <div class="maincontant">
@@ -35,13 +35,13 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="index.html" class="nav__link nav__link-main"> Главная</a>
+                                <a href="/index.html" class="nav__link nav__link-main"> Главная</a>
                             </li>
                             <li class="nav__item nav__item--active">
-                                <a href="#" class="nav__link nav__link-feed"> Отзывы </a>
+                                <a class="nav__link nav__link-feed"> Отзывы </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link nav__link-wallet">  Тарифы </a>
+                                <a href="/tarifs.html" class="nav__link nav__link-wallet">  Тарифы </a>
                             </li>
                         </ul>
                     </nav>
@@ -119,22 +119,7 @@
 
                             
                     </section>
-                    <div class="pagination">
-                        <span class="pagination__display"> Страница 1 из 7 </span>
-                        <div class="pagination__controls">
-                            <a href="#" class="pagination__prev"><</a>
-                            <ul class="pagination__pages">
-                                <li class="pagination_pages-item"><a class="pagination__link">1</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">2</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">3</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">4</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">5</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">6</a></li>
-                                <li class="pagination_pages-item"><a href="#" class="pagination__link">7</a></li>
-                            </ul>
-                            <a href="#" class="pagination__next">></a>
-                        </div>
-                    </div>
+
                 </main>
             </div>   
             <section class="discount">
@@ -148,7 +133,7 @@
             <section class="feedback__form">
                 <div class="container container--feedback">
                     <form action="" class="feedback">
-                        <h2 class="title--feedback">Оставить отзыв</h2>
+                        <h2 class="title title--feedback">Оставить отзыв</h2>
                         <div class="form__row">
                             <label class="form__block">
                                 <div class="form__block-title">Ваше имя</div>
@@ -187,11 +172,11 @@
             </section>
 
        </div>
-        <footer class="footer">
-            <div class="container footer__container">
+       <footer class="footer">
+            <div class="container container--flex">
                 <div class="footer-text">
                         Сделано с любовью и старанием
-                        на курсе «HTML + CSS» в <a class="footer-text__link" href="https://loftschool.com/">LoftSchool.</a> </br>
+                        на курсе «HTML + CSS» в <a class="footer-text__link" href="https://loftschool.com/">LoftSchool</a> 
                         Автор работы: <a class="footer-text__link" href="https://github.com/natella2902/FirstCourseLS">Желонкина Наталья</a>
                 </div>
                 <div class="logo logo--footer">
@@ -211,6 +196,6 @@
                 </div>
             </div>
         </footer>
-    </div.maincontant>
+    </div>
 </body>
 </html>
