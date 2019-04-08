@@ -4,19 +4,11 @@
     color: #ffffff;
 }
 
-.footer__container {
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
-
 .footer-text {
     width: 25%;
     font-family: 'gothempro', sans-serif;
     font-weight: 300px;
     font-size: 14px;
-
-
 }
 
 .footer-text__link {

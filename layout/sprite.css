@@ -1,0 +1,89 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-menu_feed {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -5px;
+}
+
+.-menu_feed_active {
+    width: 20px;
+    height: 18px;
+    background-position: -35px -5px;
+}
+
+.-menu_main {
+    width: 17px;
+    height: 15px;
+    background-position: -65px -5px;
+}
+
+.-menu_main_active {
+    width: 17px;
+    height: 15px;
+    background-position: -92px -5px;
+}
+
+.-menu_wallet {
+    width: 19px;
+    height: 16px;
+    background-position: -119px -5px;
+}
+
+.-menu_wallet_active {
+    width: 19px;
+    height: 16px;
+    background-position: -148px -5px;
+}
+
+.-socials_ {
+    width: 12px;
+    height: 7px;
+    background-position: -177px -5px;
+}
+
+.-socials_fb {
+    width: 6px;
+    height: 13px;
+    background-position: -199px -5px;
+}
+
+.-socials_google {
+    width: 15px;
+    height: 9px;
+    background-position: -215px -5px;
+}
+
+.-socials_mail {
+    width: 12px;
+    height: 9px;
+    background-position: -240px -5px;
+}
+
+.-socials_tw {
+    width: 11px;
+    height: 9px;
+    background-position: -262px -5px;
+}
+
+.-special_flower {
+    width: 27px;
+    height: 31px;
+    background-position: -283px -5px;
+}
+
+.-special_palette {
+    width: 28px;
+    height: 29px;
+    background-position: -320px -5px;
+}
+
+.-special_star {
+    width: 32px;
+    height: 32px;
+    background-position: -358px -5px;
+}
