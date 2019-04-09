@@ -4,6 +4,7 @@
     background-color: #27273e; 
     color: white;
     min-block-size: 77px;
+    margin-bottom: 50px;
 }
 
 .container--flex {
@@ -51,19 +52,22 @@
 }
 
 .contacts__button-hidden {
-    color: white; 
+    color: #ec247d; 
     display: none;
     position: absolute;
     top: 20px;
     right: 0px;
     float: right;
-    
-   
-   
+
+}
+
+.contacts__button:hover {
+    color: #5dd1f8;
 }
 
 .contacts__button:hover + .contacts__button-hidden {
     display: block;
+
 }
 
 .contacts__schedule {
