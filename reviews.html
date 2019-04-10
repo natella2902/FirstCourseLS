@@ -130,7 +130,7 @@
             </div>
         </div>
         <section class="feedback">
-            <div class="container">
+            <div class="container container--flex">
                 <div class="form">
                     <form action="" class="form__tag">
                         <div class="form-title">Оставить отзыв</div>
@@ -149,24 +149,29 @@
                                 <div class="form__block-title">Текст отзыва</div>
                                 <textarea name="" class="form__textarea form-field" placeholder="Мне понравилось"></textarea>
                             </label>
-                        </div>
+                        </div> 
                         <div class="form__row">
-                            <label class="form__radio-lbl" tabindex="0">
-                                <div class="form_block-title">Отображать фото в отзыве?</div>
-                                <input class="form__radio" value="Yes" type="radio" name="adress" checked>
+                        <div class="form__foto">
+                            <div class="form__block-title">Отображать фото в отзыве?</div>
+                            <label class="form__radio-lbl" tabindex="0">        
+                                <input class="form__radio" value="Yes" type="radio" name="foto" checked>
                                 <span class="form__radio-custom"></span>
                                 <span class="form__radio-text" >Да</span>
                             </label>  
                             <label class="form__radio-lbl" tabindex="0">
-                                <input class="form__radio" value="No" type="radio" name="adress">
+                                <input class="form__radio" value="No" type="radio" name="foto">
                                 <span class="form__radio-custom"> </span>
                                 <span class="form__radio-text">Нет</span>
                             </label>
-                            <div class="form__buttons">
-                                <button type="reset" class="form__button"></button>
+                          
+                        </div>
+                         
+                        <div class="form__buttons">
                                 <button type="submit" class="form__button">Отправить</button>
-                            </div>  
                         </div>  
+                    </div>
+
+                         
                     </form>
                 </div>
             </div>
