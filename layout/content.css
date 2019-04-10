@@ -24,8 +24,10 @@
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-   margin-right: 20px;
+    margin-right: 20px;
+    background: rgba(245, 245, 245, 0.8) url(../picture/logo-fig2.png) no-repeat center center;   
 }
+
 
 .content__avatar-pic {
     width: 100%;
