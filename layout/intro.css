@@ -1,6 +1,67 @@
 .wrapper--intro {
     position: relative;
-    background-image: url(/picture/aso6syjzgps-hannah-wei.jpg);
+    background-image: url(../picture/aso6syjzgps-hannah-wei.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 } 
+
+.intro {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: introAnima 2s 1 forwards;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1)
+
+}
+
+@keyframes introAnima {
+    from {
+        transform:  translate(-50%, -50%) rotate(20deg);
+    }
+
+   35% {
+        transform:  translate(-50%, -50%) rotate(-20deg);
+   }
+    to {
+        transform:  translate(-50%, -50%) rotate(20px);
+    }
+}
+
+.title--hidden {
+    display: none;
+    color: transparent;
+
+}
+
+.intro__logo {
+    width: 161px;
+    height: 119px;
+    margin-bottom: 30px;
+}
+
+.intro__btn-link {
+    text-align: center;
+    color: #b12167;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border: 3px solid #b12167;
+    width: 180px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.intro__btn-link:hover {
+    color: #5dd1f8;
+    border: 3px solid #5dd1f8;
+}
