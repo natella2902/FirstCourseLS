@@ -1,12 +1,14 @@
 .discount {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    margin-bottom: 50px;
     width: 100%;
     background: #27273e repeat;
     background-image: url(../picture/Слой\ 3.png);
-    margin-bottom: 50px;
     
+}
+
+.container--discount {
+    width: 611px;
+    display: block;
 }
 
 .discount__text {
@@ -14,7 +16,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    padding: 50px 215px;
+    padding: 50px 0;
 
 }
 

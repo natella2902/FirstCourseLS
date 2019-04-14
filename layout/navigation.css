@@ -1,6 +1,5 @@
 .nav__list {
   display: inline-block;
-
 }
 
 .nav__item {
@@ -21,11 +20,12 @@
   text-decoration: none;
   color: #ef3a8a;
   padding-left: 35px;
+  transition: 1s;
 }  
 
 .nav__link:hover {
   color: black;
-  transition: .5s;
+ 
 }
 
 .nav__link:before, .nav__link:after {
@@ -35,7 +35,7 @@
   margin-right: 10px;
   background-image: url(../picture/spritesheet.png);
   background-repeat: no-repeat;
-  transition: 1.5s;
+  transition: 1s;
   position: absolute;
   top: 0;
   left: 0;

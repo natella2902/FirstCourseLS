@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <title>Reviews</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="./layout/content.css">
-    <link rel="stylesheet" href="./layout/form.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container container--flex">
                 <div class="logo logo--header">
-                    <a class="logo__link" href="index.html">
+                    <a class="logo__link" href="main.html">
                         <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
                     </a>
                 </div>
@@ -30,13 +28,13 @@
                 </address>      
             </div>
         </header>
-       <div class="maincontant">
+       <div class="maincontent">
             <div class="container"> 
                 <aside class="aside">
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="index.html" class="nav__link nav__link-main"> Главная</a>
+                                <a href="main.html" class="nav__link nav__link-main"> Главная</a>
                             </li>
                             <li class="nav__item nav__item--active">
                                 <a class="nav__link nav__link-feed"> Отзывы </a>
@@ -49,7 +47,7 @@
                 </aside>
                 <main class="main">
                     <ul class="breadcrumbs">
-                        <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Главная</a></li>
+                        <li class="breadcrumbs__item"><a href="main.html" class="breadcrumbs__link">Главная</a></li>
                         <li class="breadcrumbs__item breadcrumbs__item--active"><a class="breadcrumbs__link">Отзывы</a></li>
                     </ul>
                     <section class="reviews">
@@ -146,50 +144,48 @@
             </div>
         </div>
         <section class="feedback">
-            <div class="container container--flex">
-                <div class="form">
-                    <form action="" class="form__tag">
-                        <div class="form-title">Оставить отзыв</div>
-                        <div class="form__row">
-                            <label class="form__block">
-                                <div class="form__block-title">Ваше имя</div>
-                                <input type="text" placeholder="Андрей" class="form__input form-field">
-                            </label>
-                            <label class="form__block">
-                                <div class="form__block-title">Ссылка на профиль в VK</div>
-                                <input type="text" placeholder="vk.com/example" class="form__input form-field">
-                            </label>
-                        </div>
-                        <div class="form__row">
-                            <label class="form__block">
-                                <div class="form__block-title">Текст отзыва</div>
-                                <textarea name="" class="form__textarea form-field" placeholder="Мне понравилось"></textarea>
-                            </label>
-                        </div> 
-                        <div class="form__row">
-                        <div class="form__foto">
-                            <div class="form__block-title">Отображать фото в отзыве?</div>
-                            <label class="form__radio-lbl" tabindex="0">        
-                                <input class="form__radio" value="Yes" type="radio" name="foto" checked>
-                                <span class="form__radio-custom"></span>
-                                <span class="form__radio-text" >Да</span>
-                            </label>  
-                            <label class="form__radio-lbl" tabindex="0">
-                                <input class="form__radio" value="No" type="radio" name="foto">
-                                <span class="form__radio-custom"> </span>
-                                <span class="form__radio-text">Нет</span>
-                            </label>
-                          
-                        </div>
-                         
-                        <div class="form__buttons">
-                                <button type="submit" class="form__button">Отправить</button>
-                        </div>  
+            <div class="container container--form">
+                <h2 class="form-title">Оставить отзыв</h2>
+                <form action="" class="form__tag">                
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__block-title">Ваше имя</div>
+                            <input type="text" placeholder="Андрей" class="form__input form-field">
+                        </label>
+                        <label class="form__block">
+                            <div class="form__block-title">Ссылка на профиль в VK</div>
+                            <input type="text" placeholder="vk.com/example" class="form__input form-field">
+                        </label>
                     </div>
-
-                         
-                    </form>
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__block-title">Текст отзыва</div>
+                            <textarea name="" class="form__textarea form-field" placeholder="Мне понравилось"></textarea>
+                        </label>
+                    </div> 
+                    <div class="form__row">
+                    <div class="form__foto">
+                        <div class="form__block-title">Отображать фото в отзыве?</div>
+                        <label class="form__radio-lbl" tabindex="0">        
+                            <input class="form__radio" value="Yes" type="radio" name="foto" checked>
+                            <span class="form__radio-custom"></span>
+                            <span class="form__radio-text" >Да</span>
+                        </label>  
+                        <label class="form__radio-lbl" tabindex="0">
+                            <input class="form__radio" value="No" type="radio" name="foto">
+                            <span class="form__radio-custom"> </span>
+                            <span class="form__radio-text">Нет</span>
+                        </label>
+                        
+                    </div>
+                        
+                    <div class="form__buttons">
+                            <button type="submit" class="form__button">Отправить</button>
+                    </div>  
                 </div>
+
+                        
+                </form>
             </div>
         </section>
        <footer class="footer">
@@ -200,7 +196,7 @@
                         Автор работы: <a class="footer-text__link" href="https://github.com/natella2902/FirstCourseLS">Желонкина Наталья</a>
                 </div>
                 <div class="logo logo--footer">
-                    <a class="logo__link" href="index.html">
+                    <a class="logo__link" href="main.html">
                         <img src="./picture/logo-fig.png" alt="logotipe" class="logo__img">
                     </a>
                 </div>
@@ -216,6 +212,6 @@
                 </div>
             </div>
        </footer>
-    </div.container>
+    </div>
 </body>
 </html>

@@ -2,12 +2,14 @@
     margin-bottom: 50px;
 }
 
-.form {
+.container--form {
+    width: 700px;
     margin: 0 auto;
     background: #f5f5f5;
     color: black;
     font-family: 'gothempro', sans-serif;
-    padding: 50px 10%;
+    padding: 50px 7%;
+    flex-direction: column;
 }   
 
 .form-title {
@@ -37,7 +39,7 @@
     color: #221f1f;
     font-size: 14px;
     font-weight: 300;
-    line-height: 54px;
+    margin-bottom: 10px; 
 }
 
 .form-field {
@@ -123,10 +125,14 @@
     text-transform: uppercase;
     letter-spacing: 2.4px;
     padding: 0px 20px;
-   
     margin-right: 20px;
-    transition: 0.7s;    
+    transition: 1s;    
     cursor: pointer;
+    transition: 1s;
   
   
+}
+
+.form__button:hover {
+    background: #ec1e79;
 }

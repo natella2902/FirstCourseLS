@@ -38,8 +38,7 @@
     text-transform: uppercase;
 }
 
-.contacts__button {
-   
+.contacts__button {  
     font-family: "gothampro", sans-serif;
     color: #ec1e79;
     opacity: 0.7;
@@ -48,7 +47,7 @@
     line-height: 54px;
     text-decoration: underline; 
     margin: -25px 0;
-   
+    transition: 1s;
 }
 
 .contacts__button-hidden {
@@ -58,16 +57,17 @@
     top: 20px;
     right: 0px;
     float: right;
-
+    transition: 1s;
 }
 
 .contacts__button:hover {
     color: #5dd1f8;
+    
 }
 
 .contacts__button:hover + .contacts__button-hidden {
     display: block;
-
+   
 }
 
 .contacts__schedule {
