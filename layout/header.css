@@ -25,21 +25,28 @@
     width: 30%;
     min-height: 38px;
     text-align: right;
+    font-family: "gothampro", sans-serif;
+
     
 }
 
 .contacts__phone {
     position: relative;
-    font-family: "gothampro", sans-serif;
+    
     color: white;
     text-decoration: none;
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: 1s;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
 }
 
 .contacts__button {  
-    font-family: "gothampro", sans-serif;
+  
     color: #ec1e79;
     opacity: 0.7;
     font-size: 14px;
@@ -52,12 +59,15 @@
 
 .contacts__button-hidden {
     color: #ec247d; 
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px;
     display: none;
     position: absolute;
     top: 20px;
     right: 0px;
     float: right;
-    transition: 1s;
+    transition: 2s;
 }
 
 .contacts__button:hover {
@@ -72,4 +82,15 @@
 
 .contacts__schedule {
     position: relative;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.contacts__worktime {
+    color: #ec1e79;
+}
+
+.contacts__break {
+    color: black;
 }
