@@ -1,5 +1,4 @@
 .discount {
-    margin-bottom: 50px;
     width: 100%;
     background: #27273e repeat;
     background-image: url(../picture/Слой\ 3.png);
@@ -7,16 +6,18 @@
 }
 
 .container--discount {
-    width: 611px;
+    width: 250px;
     display: block;
 }
 
 .discount__text {
+    color: white;
     font-family: "gothempro", sans-serif;
     font-weight: normal;
+    text-align: center;
     font-size: 18px;
-    line-height: 30px;
-    padding: 50px 0;
+    line-height: 34px;
+    padding: 0;
 
 }
 

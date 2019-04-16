@@ -1,8 +1,12 @@
+.tarifs {
+    width: 100%;
+}
+
 
 .tarifs__list {
     display: flex;
     flex-wrap: wrap;  
-    margin-left: -45px;
+    margin-left: -25px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -16,6 +20,7 @@
     margin-bottom: 40px;
 
 }
+
 
 .tarifs__icon {
     width: 250px;

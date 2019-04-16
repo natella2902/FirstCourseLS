@@ -8,16 +8,28 @@
 }
 
 
+.title--tarif {
+    font-family: "gothempro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
 .features {
     margin-bottom: 80px;
 }
 
 .features__list {
-    display: flex;   
+    display: flex; 
+    flex: 1;  
+   
 }
 
 .features__item {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

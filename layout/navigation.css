@@ -1,10 +1,14 @@
+.nav {
+  margin-bottom: 30px;
+}
+
 .nav__list {
-  display: inline-block;
+  display: flex;
 }
 
 .nav__item {
   position: relative; 
-  margin-bottom: 25px;
+  margin-left: 25px;
 }
 
 .nav__item:last-child {
@@ -18,7 +22,7 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   text-decoration: none;
-  color: #ef3a8a;
+  color: #ec1e79;
   padding-left: 35px;
   transition: 1s;
 }  
@@ -78,5 +82,62 @@
 }
 
 .nav__item--active .nav__link:after {
+  opacity: 1;
+}
+
+
+
+
+
+.nav--header .nav__link {
+  color: white;
+}  
+
+.nav--header .nav__link:hover {
+  color: #ec1e79;
+ 
+}
+
+.nav--header .nav__link:before, .nav--header .nav__link:after {
+  background-image: url(../picture/spritesheet3.png);  
+}
+
+.nav--header .nav__link-main:before {
+  background-position: -115px -15px;
+}
+
+.nav--header .nav__link-main:after {
+  background-position: -115px -15px;
+  opacity: 0;
+}
+
+.nav--header .nav__link-feed:before {
+  background-position: -65px -15px; 
+}
+
+.nav--header .nav__link-feed:after {
+  background-position: -15px -15px;
+  opacity: 0;
+}
+
+.nav--header .nav__link-wallet:before {
+  background-position: -211px -15px;
+ 
+}
+
+.nav--header .nav__link-wallet:after {
+  background-position: -162px -15px;
+  opacity: 0;
+}
+
+.nav--header .nav__link:hover:after {
+  opacity: 1;
+}
+
+.nav--header .nav__item--active .nav__link {
+  color: #ec1e79;
+}
+
+.nav--header .nav__item--active .nav__link:after {
   opacity: 1;
 }

@@ -1,6 +1,10 @@
 .aside {
-    width: 20%;
-    vertical-align: top;
+    display: flex;
+    width: 22%; 
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-right: 10px;
 }
 
 
