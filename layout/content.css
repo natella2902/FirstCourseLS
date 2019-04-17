@@ -1,7 +1,15 @@
+.content {
+    margin-bottom: 25px;
+}
+
 .content__item {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     position: relative;
+}
+
+.content__item:last-child {
+    margin-bottom: 0;
 }
 
 .content__item:after {
@@ -19,12 +27,12 @@
 }
 
 .content__description {
-    width: 70%;
+    width: 77%;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: #656464;
-    line-height: 21px;
+    line-height: 10px;
 }
 
 
@@ -47,7 +55,7 @@
 .content__date {
     color: #221f1f;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 .content__title {
