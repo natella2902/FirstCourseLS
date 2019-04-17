@@ -1,10 +1,11 @@
 .pagination {
     display: flex;
     justify-content: center;
-    margin-bottom: 45px;
+   
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 60px;
 }
 
 .pagination_pages-item {

@@ -38,11 +38,16 @@
 
 }
 
-.intro__logo {
-    width: 161px;
-    height: 119px;
+.intro {
+    width: 200px;
+    height: 200px;
     margin-bottom: 30px;
 }
+
+.intro__logo {
+    margin-bottom: 10px;
+}
+
 
 .intro__btn-link {
     text-align: center;
