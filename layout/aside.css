@@ -1,6 +1,6 @@
 .aside {
     display: flex;
-    width: 26%; 
+    width: 25%; 
     flex-direction: column;
     align-items: center;
     color: black;

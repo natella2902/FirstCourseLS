@@ -4,6 +4,7 @@
 
 .nav__list {
   display: flex;
+  line-clamp: 15px;
 }
 
 .nav__item {

@@ -1,3 +1,7 @@
+.wrapper--tarifs .header {
+    margin-bottom: 30px;
+}
+
 .tarifs {
     width: 100%;
 }
@@ -7,26 +11,24 @@
     display: flex;
     flex-wrap: wrap;  
     justify-content: space-between;
-    margin-left: -25px;
-    margin-bottom: 20px;
+    margin-left: 0;
     text-align: center;
 }
 
 .tarifs__item {
     display: flex;
     flex-direction: column;
-    vertical-align: top;
-    flex: 1;
-    margin-bottom: 40px;
-
+    text-align: center;
+    width: 31%;
+    min-height: 450px;
 }
 
 
 .tarifs__icon {
-    width: 250px;
-    height: 153px;
+    width: 273px;
+    height: 165px;
     margin: 0 auto;
-    border-radius: 5%;
+    border-radius: 2px;
     overflow: hidden; 
     position: relative;
     margin-bottom: 25px;
@@ -39,11 +41,11 @@
 }
 
 .tarifs__icon-effect {
-    width: 250px;
-    height: 153px;
+    width: 273px;
+    height: 165px;
     margin: 0 auto;
 
-    border-radius: 5%;
+    border-radius: 2px;
     background-color: #27273e;
     opacity: 0.85;
 
@@ -54,7 +56,6 @@
     text-transform: uppercase;
     color: #5dd1f8;
 
-  
     padding: 30px 40px 34px 41px;
     position: absolute;
     top: 0;
@@ -70,4 +71,10 @@
 
 .tarifs__icon-effect:hover {
     opacity: 0;
+}
+
+.tarifs__text {
+    font-family: "gothempro", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
 }
