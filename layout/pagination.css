@@ -16,19 +16,26 @@
  
     background: #27273e;
     border-radius: 10%;
-    padding: 5px 0 5px 10px;
-
+    padding: 4px 2px;
+   
 }
 
 .pagination_pages-item--active .pagination__link {
     color: #ec1e79; 
+
+}
+
+.pagination_pages-item--active .pagination__link:hover {
+    color: white;
+    background: transparent;
 }
 
 .pagination__prev, 
 .pagination__link,
 .pagination__next {
     text-decoration: none;
-    margin-right: 10px;
+    padding: 4px 8px;
+    margin-right: 1px;
 }
 
 .pagination__link { 
@@ -36,10 +43,19 @@
     color: #221f1f;
 }
 
+.pagination__link:hover {
+    background-color: #ec1e79;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10%;
+
+}
+
 .pagination__display {
     font-weight: normal;
     color: #656464;  
     margin-right: 10px;
+    line-height: 18px;
 }
 
 .pagination__controls {
