@@ -7,6 +7,15 @@
     font-family: 'gothampro', sans-serif;
 }
 
+.wrapper--main .features {
+    border: 2px solid #f5f5f5;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper--main .title {
+    margin-bottom: 80px;
+}
 
 .title--tarif {
     font-family: "gothempro", sans-serif;

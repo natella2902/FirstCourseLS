@@ -2,6 +2,13 @@
   margin-bottom: 25px;
 }
 
+
+.nav--header .nav__list {
+  margin-left: 78px;
+  padding: 15px 0;
+
+}
+
 .nav__list {
   display: flex;
   line-clamp: 15px;

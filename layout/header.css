@@ -7,6 +7,11 @@
     margin-bottom: 45px;
 }
 
+.wrapper--main .header {
+    padding-bottom: 25px;
+}
+
+
 .container--flex {
     display: flex;
     justify-content: space-between;
