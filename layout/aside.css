@@ -7,4 +7,14 @@
     margin-right: 10px;
 }
 
-
+.title--aside {
+    font-family: "gothempro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 25px 15px 0 0;
+    margin-bottom: 20px;
+}
