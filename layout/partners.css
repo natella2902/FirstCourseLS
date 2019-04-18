@@ -43,7 +43,7 @@
 .partners__item:nth-child(6), .partners__item:nth-child(5) {
     order: 12;
 } 
-/*
+
 
 .partners__logo {
     filter: grayscale(100%);
@@ -54,4 +54,3 @@
     transition: 1s;
 }
 
-*/
